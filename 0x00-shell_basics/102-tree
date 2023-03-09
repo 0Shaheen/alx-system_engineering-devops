@@ -1,2 +1,9 @@
 #!/bin/bash
-mkdir welcome; cd welcome; mkdir to; cd to; mkdir school
+mkdir -p welcome/to/school
+cd welcome
+echo to
+cd to
+echo school
+cd school
+echo school
+cd ../../..
