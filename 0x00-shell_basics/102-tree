@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -lr '500:500' / | sort
+mkdir -p welcome/{to/{school}}
