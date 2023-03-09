@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -p welcome/to/school; cd welcome; echo to; cd to; echo school; cd school; echo school; cd ../../..
+grep -rl "string" . | xargs sed -i 's/string/replacement/g'
