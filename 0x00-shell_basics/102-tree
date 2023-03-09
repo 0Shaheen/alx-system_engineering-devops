@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -rl "string" . | xargs sed -i 's/string/replacement/g'
+grep -lr '500:500' / | sort
