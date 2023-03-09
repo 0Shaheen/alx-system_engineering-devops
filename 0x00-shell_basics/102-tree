@@ -1,9 +1,2 @@
 #!/bin/bash
-mkdir -p welcome/to/school
-cd welcome
-echo to
-cd to
-echo school
-cd school
-echo school
-cd ../../..
+mkdir -p welcome/to/school; cd welcome; echo to; cd to; echo school; cd school; echo school; cd ../../..
